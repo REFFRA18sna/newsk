@@ -5,6 +5,10 @@ import requests
 import telebot
 import time
 import json
+import urllib3
+
+# Suppress the SSL warning
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Your Telegram Bot Token
 BOT_TOKEN = '7243967720:AAEgHjjfPrtZ0Is56kEUS2MII6Jt8x4Hjuw'
