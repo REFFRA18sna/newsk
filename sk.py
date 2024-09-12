@@ -7,8 +7,8 @@ import time
 import json
 
 # Your Telegram Bot Token
-BOT_TOKEN = 'your_bot_token'
-CHAT_ID = 'your_chat_id'  # Replace with your chat ID
+BOT_TOKEN = '7243967720:AAEgHjjfPrtZ0Is56kEUS2MII6Jt8x4Hjuw'
+CHAT_ID = '7472978113'  # Replace with your chat ID
 
 # Initialize the bot
 bot = telebot.TeleBot(BOT_TOKEN)
